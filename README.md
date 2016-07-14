@@ -10,7 +10,7 @@ Prepare the workspace and download sources
 ------------------------------------------
 ```
 $ mkdir ~/Android-RPi3 && cd ~/Android-RPi3
-$ repo init -u git://github.com/Android-RPi3/android_manifest.git -b android-6.0
+$ repo init -u git://github.com/deathsoverture/android_manifest.git -b android-6.0
 $ repo sync -jX
 ```
 + Replace -j**X** with number of core/cpu * 2
@@ -48,6 +48,7 @@ $ ./install.sh -p /dev/sdX
 
 
 #### Thanks to:
++ [Android-RPi3](https://github.com/Android-RPi3)
 + [peyo-hd](https://github.com/peyo-hd)
 + [RTAndroid](https://github.com/RTAndroid)
 + [kconger](https://github.com/kconger)
